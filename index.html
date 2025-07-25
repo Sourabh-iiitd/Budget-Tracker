@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetTracker - By Sourabh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Budget Tracker</h1>
+    <div class="start">
+        <label for="budget">Your Budget: </label>
+        <input type="text" placeholder="Please Enter yout Budget " id="budget">
+        <button>submit</button>
+        <label for="details">Expense Details: </label>
+        <input type="text"  placeholder="Enter Expense details" id="details">
+        <input type="text"  placeholder="Enter your Expense" id="expense">
+        <button>submit</button>
+    </div>
+        <div class="card">
+      <div>
+        Budget: <span class="amount" id="amtshow1">0 rs</span>
+      </div>
+      <div>
+        Expenses: <span class="amount" id="amtshow2">0 rs</span>
+      </div>
+      <div>
+        Balance: <span class="amount" id="amtshow3">0 rs</span>
+      </div>
+    </div>
+    <div class="buddet">
+     <ul id="expense-list" style="font-size: 18px;">Budget Details :</ul>
+    </div>
+    <script src="app.js"></script>
+    <h4>Made By Sourabh</h4>
+</body>
+</html>
