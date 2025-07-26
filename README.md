@@ -7,7 +7,8 @@ A simple and functional **Budget Tracker** built using **HTML, CSS, and JavaScri
 ## 📊 Features
 
 - Set a total budget amount  
-- Add multiple expense entries with descriptions  
+- Add multiple expense entries with descriptions
+- Each entry logs the time it was added 🕒 
 - Live balance and total expense calculation  
 - "Clear All" button to reset the budget session  
 - Responsive layout with a clean, card-style UI  
